@@ -72,7 +72,7 @@ namespace Orujin.Core.Input
             }
 
             //Handle right button
-            if (mouseState.LeftButton == ButtonState.Pressed)
+            if (mouseState.RightButton == ButtonState.Pressed)
             {
                 if (!rightButtonDown)
                 {
